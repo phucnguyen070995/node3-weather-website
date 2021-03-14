@@ -1,4 +1,4 @@
-console.log('hello console')
+// console.log('hello console')
 
 fetch('http://puzzle.mead.io/puzzle').then((response) => {
     response.json().then((data) => {
